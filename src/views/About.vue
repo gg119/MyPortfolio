@@ -20,6 +20,7 @@
 
 <script>
 export default {
+  name: "about",
   title: 'About - Geon'
 };
 </script>

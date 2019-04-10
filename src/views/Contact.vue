@@ -15,7 +15,7 @@
     </div>
     
     <div>
-      <a href="https://drive.google.com/open?id=1joMPzshasPiZ_K2bAaBWxc8nJr3o219l" alt="Resume"> <i class="fas fa-file"></i> </a>
+      <a href="https://drive.google.com/open?id=10DmqP3dv2CpiMeZRTGbgmQ-_6EOeLbS1" alt="Resume"> <i class="fas fa-file"></i> </a>
       <h4>Resume</h4>
     </div>
     
