@@ -21,20 +21,22 @@
 <script>
 export default {
   name: "about",
-  title: 'About - Geon',
-  data(){
-    return{
+  title: "About - Geon",
+  data() {
+    return {
       title: "About"
-    }
+    };
   },
-    head: {
-    title: function () {
+  head: {
+    title: function() {
       return {
         inner: this.title
-      }
+      };
     },
     meta: [
-      { name: 'About', content: 'Geon\'s About Page', id: 'about' }
+      { name: "application-name", content: "Geon's Portfolio" },
+      { name: "description", content: "Geon's About Page", id: "desc" },
+      {name:"keywords", content:"geon,gayles, geon gayles, personal website, vue website, vuejs website, geon portfolio"}// id to replace intead of create element
     ]
   }
 };
@@ -69,10 +71,10 @@ h3 {
   padding: 2rem;
 }
 
-@media only screen and (max-width: 768px){
-        h3 {
-          font-size: 1.5rem;
-        }
-    }
+@media only screen and (max-width: 768px) {
+  h3 {
+    font-size: 1.5rem;
+  }
+}
 </style>
 

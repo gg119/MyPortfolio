@@ -1,34 +1,36 @@
 <template>
   <div class="home">
     <h1>Projects</h1>
-    <Swi/> 
+    <Swi/>
   </div>
 </template>
 
 <script>
 // import Card from '../components/Card.vue';
-import Swi from '../components/Swi.vue';
+import Swi from "../components/Swi.vue";
 // @ is an alias to /src
 
 export default {
   name: "home",
   components: {
-    Swi,
+    Swi
   },
   title: "Home - Geon",
-  data(){
-    return{
+  data() {
+    return {
       title: "Home"
-    }
+    };
   },
-    head: {
-    title: function () {
+  head: {
+    title: function() {
       return {
         inner: this.title
-      }
+      };
     },
     meta: [
-      { name: 'Home', content: 'Geon\'s Home Page', id: 'home' }
+      { name: "application-name", content: "Geon's Portfolio" },
+      { name: "description", content: "Geon's Home Page", id: "desc" },
+      {name:"keywords", content:"geon,gayles, geon gayles, personal website, vue website, vuejs website, geon portfolio"}// id to replace intead of create element
     ]
   }
 };
