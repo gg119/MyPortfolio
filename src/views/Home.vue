@@ -15,6 +15,21 @@ export default {
   components: {
     Swi,
   },
-  title: "Home - Geon"
+  title: "Home - Geon",
+  data(){
+    return{
+      title: "Home"
+    }
+  },
+    head: {
+    title: function () {
+      return {
+        inner: this.title
+      }
+    },
+    meta: [
+      { name: 'Home', content: 'Geon\'s Home Page', id: 'home' }
+    ]
+  }
 };
 </script>

@@ -25,7 +25,23 @@
 <script>
 export default {
   name: "contact",
-  title: "Contact - Geon"
+  title: "Contact - Geon",
+
+  data(){
+    return{
+      title: "Contact"
+    }
+  },
+    head: {
+    title: function () {
+      return {
+        inner: this.title
+      }
+    },
+    meta: [
+      { name: 'Contact', content: 'Geon\'s Contact Page', id: 'contact' }
+    ]
+  }
 };
 </script>
 
